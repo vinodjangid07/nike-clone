@@ -43,6 +43,7 @@ html {
     gap: 10px;
 }
 .logo img{
+    
     height: 30%;
 }
 .heading{
@@ -59,6 +60,7 @@ html {
     align-items: center;
     justify-content: flex;
     background-color: #ffffff;
+    padding-bottom:100px ;
 }
 h1{
     font-size: 5rem;
