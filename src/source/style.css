@@ -92,6 +92,7 @@ h1{
 .cards img{
     width: 100%;
     transition-duration: .3;
+    z-index: 5;
 }
 .cards:hover img{
     transform: translateZ(200px);
@@ -121,6 +122,7 @@ h1{
     background: linear-gradient(#82828200,rgba(1, 1, 1, 0.515));
     padding: 20px 0px;
     transition-duration: .3;
+    z-index: 2;
 }
 .cards:hover .productName{
     transform: translateZ(50px);
