@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel="icon" type="image/x-icon" href="src/images/faviconnike.png">
+    <link rel="stylesheet" href="src/source/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="src/images/Logo_NIKE_zzrxay.png" alt=""></div>
+            
+        </nav>
+    </header>
+    <!-- Header ends -->
+
+    <main>
+        <div class="main-container">
+            <h1>FEEL IT TO BELIEVE IT</h1>
+            <div class="cards-container">
+                <div class="cards red"data-tilt-glare data-tilt-max-glare="1">
+                    <img src="src/images/redshoes.png" alt="" class="img">
+                    <article class="productName">Nike Devil Edition</article>
+                    <article class="rating">🌟🌟🌟🌟</article>
+                    
+                </div>
+                <div class="cards black"data-tilt-glare data-tilt-max-glare="1">
+                    <img src="src/images/blackshoes.png" alt="" class="img">
+                    <article class="productName">Nike Dark Knight</article>
+                    <article class="rating">🌟🌟🌟</article>
+                    
+                </div>
+                <div class="cards green"data-tilt-glare data-tilt-max-glare="0.5">
+                    <img src="src/images/greenneon.png" alt="" class="img">
+                    <article class="productName">Nike Neon Edition</article>
+                    <article class="rating">🌟🌟🌟🌟🌟</article>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    
+</body>
+<script type="text/javascript" src="src/source/vanilla-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll(".cards"), {
+		max: 10,
+		speed: 1000,
+        perspective:1000
+	});
+</script>
+</html>
